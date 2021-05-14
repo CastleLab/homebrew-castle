@@ -1,6 +1,6 @@
 # homebrew-castle
 
-The [Homebrew]() tap useful for SE research in [CASTLE Research Group]().
+The [Homebrew](https://brew.sh/) tap useful for SE research in [CASTLE Research Group](http://sccpu2.cse.ust.hk/castle/index.html).
 
 ## Installation
 
