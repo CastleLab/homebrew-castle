@@ -15,7 +15,7 @@ class Nvtop < Formula
     end
 
     system "mkdir", "build"
-    system "cd", "build"
+    Dir.chdir('build')
     system "cmake", "..", "-DNVML_RETRIEVE_HEADER_ONLINE=True", "-DCMAKE_INSTALL_PREFIX:PATH=#{prefix}"
     system "make -j"
     system "make install"
